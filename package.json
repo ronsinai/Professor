@@ -1,0 +1,44 @@
+{
+  "name": "professor",
+  "version": "1.0.0",
+  "description": "professor-x",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronsinai/Professor.git"
+  },
+  "keywords": [
+    "professor"
+  ],
+  "author": "ronsinai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronsinai/Professor/issues"
+  },
+  "homepage": "https://github.com/ronsinai/Professor#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "joi": "^17.3.0",
+    "nconf": "^0.11.1",
+    "pino": "^6.10.0",
+    "pino-pretty": "^4.3.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.3",
+    "sinon-chai": "^3.5.0"
+  }
+}

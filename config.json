@@ -1,0 +1,24 @@
+{
+  "diagnoses": {
+    "X-RAYS": [
+      "fracture",
+      "infection",
+      "pneumonia"
+    ],
+    "MRI": [
+      "multiple_sclerosis",
+      "syringomyelia",
+      "stroke",
+      "tumor"
+    ],
+    "CT": [
+      "fracture",
+      "tumor"
+    ],
+    "US": [
+      "gallbladder_disease",
+      "prostate_problem",
+      "synovitis"
+    ]
+  }
+}

@@ -14,8 +14,6 @@ Nconf.argv().env().defaults({
   AMQP_IN_PATTERNS: '',
   AMQP_OUT_EXCHANGE: 'discharges',
   AMQP_OUT_EXCHANGE_TYPE: 'fanout',
-  AMQP_OUT_QUEUE: 'discharges',
-  AMQP_OUT_PATTERNS: '',
 });
 
 const App = require('./app');

@@ -30,11 +30,9 @@ class App {
       Nconf.get('AMQP_IN_QUEUE'),
       Nconf.get('AMQP_IN_PATTERNS').split(' '),
     );
-    await MQ.setUp(
+    await MQ.assertExchange(
       Nconf.get('AMQP_OUT_EXCHANGE'),
       Nconf.get('AMQP_OUT_EXCHANGE_TYPE'),
-      Nconf.get('AMQP_OUT_QUEUE'),
-      Nconf.get('AMQP_OUT_PATTERNS').split(' '),
       { arguments: { 'x-delayed-type': Nconf.get('AMQP_OUT_DELAYED_EXCHANGE_TYPE') } },
     );
 

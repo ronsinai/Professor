@@ -15,8 +15,6 @@ Nconf.argv().env().defaults({
   AMQP_OUT_EXCHANGE: 'discharges-delayed',
   AMQP_OUT_EXCHANGE_TYPE: 'x-delayed-message',
   AMQP_OUT_DELAYED_EXCHANGE_TYPE: 'fanout',
-  AMQP_OUT_QUEUE: 'discharges-delayed',
-  AMQP_OUT_PATTERNS: '',
   DELAY: 300000,
 }).file({ file: './config.json' });
 

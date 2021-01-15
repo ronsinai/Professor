@@ -13,8 +13,6 @@ Nconf.argv().env().defaults({
   AMQP_IN_PATTERNS: 'fracture infection pneumonia multiple_sclerosis syringomyelia stroke tumor gallbladder_disease prostate_problem synovitis',
   AMQP_OUT_EXCHANGE: 'test_discharges',
   AMQP_OUT_EXCHANGE_TYPE: 'fanout',
-  AMQP_OUT_QUEUE: 'test_discharges',
-  AMQP_OUT_PATTERNS: '',
 });
 
 const Consumer = require('../app');

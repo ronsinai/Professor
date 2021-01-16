@@ -10,7 +10,7 @@ Nconf.argv().env().defaults({
   AMQP_IN_EXCHANGE: 'test_diagnoses',
   AMQP_IN_EXCHANGE_TYPE: 'direct',
   AMQP_IN_QUEUE: 'test_diagnoses-critical',
-  AMQP_IN_PATTERNS: 'fracture infection pneumonia multiple_sclerosis syringomyelia stroke tumor gallbladder_disease prostate_problem synovitis',
+  AMQP_IN_PATTERNS: 'infection pneumonia multiple_sclerosis syringomyelia stroke tumor prostate_problem',
   AMQP_OUT_EXCHANGE: 'test_discharges',
   AMQP_OUT_EXCHANGE_TYPE: 'fanout',
 });

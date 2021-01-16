@@ -1,7 +1,6 @@
 {
   "diagnoses": {
     "X-RAYS": [
-      "fracture",
       "infection",
       "pneumonia"
     ],
@@ -12,13 +11,10 @@
       "tumor"
     ],
     "CT": [
-      "fracture",
       "tumor"
     ],
     "US": [
-      "gallbladder_disease",
-      "prostate_problem",
-      "synovitis"
+      "prostate_problem"
     ]
   }
 }
